@@ -1,2 +1,10 @@
 - Wampserver trace report -
 File created by Wampserver install
+[03-May-2020 17:16:15 UTC] WordPress database error Unknown column 'stourheadWP_' in 'field list' for query SELECT stourheadWP_
+[04-May-2020 20:45:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function gett_footer() in H:\GitHub\StourheadB_B\www\Stourhead\wp-content\themes\StourheadBB\contactTemplate.php:24
+Stack trace:
+#0 H:\GitHub\StourheadB_B\www\Stourhead\wp-includes\template-loader.php(106): include()
+#1 H:\GitHub\StourheadB_B\www\Stourhead\wp-blog-header.php(19): require_once('H:\\GitHub\\Stour...')
+#2 H:\GitHub\StourheadB_B\www\Stourhead\index.php(17): require('H:\\GitHub\\Stour...')
+#3 {main}
+  thrown in H:\GitHub\StourheadB_B\www\Stourhead\wp-content\themes\StourheadBB\contactTemplate.php on line 24

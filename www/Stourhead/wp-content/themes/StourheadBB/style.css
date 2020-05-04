@@ -1,0 +1,264 @@
+/*
+Theme Name: Stourhead B&B
+Author: johnny Monkhouse
+Version: 1.2
+*/
+html, body{
+	height: 100%;
+}
+body{
+	align-content: left;
+	font-family: Lora;
+	font-size:14px;
+	color: #222;
+	padding:75px 15%;
+}
+
+p{
+	padding:10px;
+	padding-top:0px;
+	padding-bottom: 0px;
+	font-family: Lora;
+	font-size:18px;
+}
+
+header{
+	z-index:100;
+	text-align: center;
+	margin:0 auto;
+	top: 0;
+	left:0;
+	width: 100%;
+	position: fixed;
+	background-color:#191919;
+	opacity: 0.95;
+	border-bottom: 2px solid black;
+}
+
+header h1 a{
+	font-size: 25px;
+	opacity: 1;
+	text-decoration: none;
+	color: white;
+}
+ /*navigation menu*/
+ nav{
+ 	margin: 0 ;
+ 	padding:0;
+ 	width: 10%;
+ 	height: 31px;
+ }
+ 
+header a p{
+	color: black;
+	text-align: right;
+	display: inline;
+	padding: 5px;
+	border-radius: 3px;
+	text-decoration: bold;
+	background-color: white;
+	opacity: 1;
+	float:right;
+ 	transition: .8s ease;
+ }
+ header a p:hover{
+ 	opacity: 0.3
+ }
+nav p{
+	opacity: 1;
+ 	font-family: arial;
+ 	color:black;
+ 	text-decoration-color: #000000;
+ 	text-decoration: bold;
+ 	font-size: 24px;
+ 	line-height: 55px;
+ 	text-align: left;
+ 	padding: 0px 0px;
+ }
+nav ul{
+	padding-left: 0px;
+	white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+ }
+nav ul li{
+ 	list-style: none;
+ }
+nav ul li img{
+	padding-left: 20px;
+}
+nav ul li a{
+	opacity: 1;
+	display: block;
+	font-family: arial;
+ 	color:white;
+ 	font-size: 14px;
+ 	width: 20%;
+ 	text-decoration: none;
+}
+nav ul li a p{
+	text-decoration: none;
+	font-size: 10px;
+	list-style: none;
+}
+nav ul li ul{
+	display:none;
+	padding-top: 9px;
+	position: absolute;
+	height:1000px;
+	background-color: #191919;
+	opacity:1;
+}
+nav ul li:hover ul{
+	display:block;
+}
+nav ul li ul li {
+	width: 175px;
+
+}
+nav ul li ul li a {
+ 	transition: .8s ease;
+ 	padding: 10px 70px;
+}
+ 
+nav ul li ul li a:hover {
+ 	background-color: #f3f3f3;
+	border-radius: 0px 10px 10px 0px;
+	color: black;
+}
+a h3{
+	opacity: 1;
+	color: white;
+	text-decoration:none;
+	padding:10px;
+	position:fixed;
+	float:right;
+	width:10%;
+	background-color:black;
+	right: 0px;
+	top:40px;
+	border-radius: 6px 0px 0px 6px;
+ 	transition: .8s ease;
+}
+a h3:hover {
+	opacity: 0.3;
+	}
+
+.inta-But{
+	opacity: 1;
+	padding:10px;
+	padding-top: 0;
+	float:right;
+	width:20%;
+	right: 10px;
+	padding-top:-50px;
+	top:-50;
+}
+.footer-content{
+
+}
+div .left-Text{
+	float: left;
+	width: 48%; 
+	padding: 10px;
+}
+div .img{
+	flex: 1 0 auto;
+	opacity: 1;
+	color: white;
+	transition: .8s ease;
+  	padding:10px;
+  	position: relative;
+}
+
+.img:hover{
+	opacity: 0.3;
+}
+
+div .img-Home-Left{
+	text-decoration: none;
+	float: left;
+	width: 48%;
+	opacity: 1;
+	color: white;
+	transition: .8s ease;
+  	padding:5px;
+  	position: relative;
+}
+
+.img-Home-Left:hover{
+	opacity: 0.3;
+}
+
+div .img-Home-Right{
+	float: right;
+	width: 48%;
+	opacity: 1;
+	color: white;
+	transition: .8s ease;
+  	padding:5px;
+  	position: relative;
+}
+
+.img-Home-Right:hover{
+	opacity: 0.3;
+}
+
+div .rooms-img{
+	float: left;
+	width: 30%;
+	height: 40%;
+	/*flex: 1 0 auto;*/
+	opacity: 1;
+	color: white;
+	transition: .8s ease;
+  	padding:10px;
+  	padding-top:0px;
+  	position: relative;
+}
+
+.rooms-img:hover{
+	opacity: 0.3;
+}
+
+.if{
+
+	position: relative;
+	display:block;
+	float:middle;
+}
+.align-middle{
+	text-align: center;
+}
+
+span.stretch {
+    display:inline-block;
+    -webkit-transform:scale(1.5,1); /* Safari and Chrome */
+    -moz-transform:scale(1.5,1); /* Firefox */
+    -ms-transform:scale(1.5,1); /* IE 9 */
+    -o-transform:scale(1.5,1); /* Opera */
+    transform:scale(1.5,1); /* W3C */
+}
+.container{
+	min-height: 100%;
+}
+.post_title{
+	padding: 0px;
+	border-top: 1px solid#999;
+}
+
+.post_content{
+	padding: 0px;
+	border-top: 3px solid#999;
+}
+
+/* Footer */
+.site-footer {
+	padding-top: 30px;
+ 	border-top: 2px solid #999; 
+ 	position: relative;
+ 	height: 100px;
+ 	margin-top: -20px;
+ 	clear:both;
+ 	padding-bottom: 0px;
+}

@@ -1,2 +1,15 @@
 - Wampserver trace report -
 File created by Wampserver install
+[Sun May 03 18:02:33.709987 2020] [mpm_winnt:notice] [pid 17180:tid 824] AH00455: Apache/2.4.41 (Win64) PHP/7.3.12 configured -- resuming normal operations
+[Sun May 03 18:02:33.709987 2020] [mpm_winnt:notice] [pid 17180:tid 824] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Sun May 03 18:02:33.709987 2020] [core:notice] [pid 17180:tid 824] AH00094: Command line: 'H:\\GitHub\\StourheadB_B\\bin\\apache\\apache2.4.41\\bin\\httpd.exe -d H:/GitHub/StourheadB_B/bin/apache/apache2.4.41'
+[Sun May 03 18:02:33.710956 2020] [mpm_winnt:notice] [pid 17180:tid 824] AH00418: Parent: Created child process 17696
+[Sun May 03 18:02:33.962303 2020] [mpm_winnt:notice] [pid 17696:tid 4] AH00354: Child: Starting 64 worker threads.
+[Sun May 03 18:21:18.642536 2020] [mpm_winnt:notice] [pid 17180:tid 824] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun May 03 18:21:20.645273 2020] [mpm_winnt:notice] [pid 17696:tid 4] AH00364: Child: All worker threads have exited.
+[Sun May 03 18:21:20.681577 2020] [mpm_winnt:notice] [pid 17180:tid 824] AH00430: Parent: Child process 17696 exited successfully.
+[Sun May 03 18:21:21.176278 2020] [mpm_winnt:notice] [pid 14760:tid 780] AH00455: Apache/2.4.41 (Win64) PHP/7.3.12 configured -- resuming normal operations
+[Sun May 03 18:21:21.176278 2020] [mpm_winnt:notice] [pid 14760:tid 780] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Sun May 03 18:21:21.176278 2020] [core:notice] [pid 14760:tid 780] AH00094: Command line: 'H:\\GitHub\\StourheadB_B\\bin\\apache\\apache2.4.41\\bin\\httpd.exe -d H:/GitHub/StourheadB_B/bin/apache/apache2.4.41'
+[Sun May 03 18:21:21.178272 2020] [mpm_winnt:notice] [pid 14760:tid 780] AH00418: Parent: Created child process 3680
+[Sun May 03 18:21:21.583886 2020] [mpm_winnt:notice] [pid 3680:tid 748] AH00354: Child: Starting 64 worker threads.

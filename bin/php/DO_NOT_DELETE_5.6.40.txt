@@ -1,0 +1,2 @@
+This PHP version 5.6.40 is used by WampServer in CLI mode.
+If you delete it, WampServer won't work anymore.
